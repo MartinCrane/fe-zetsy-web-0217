@@ -1,14 +1,57 @@
 /*////////////// Fonts //////////////*/
-
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+html {font-family:sans-serif;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%
+}
+
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
+
+
+h1 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 4em;
+	color: #9ca8a3;
+	margin: auto;
+}
+
+
+h2 {
+	font-size: 2em;
+	color: #6f7f7a;
+}
+
+
+p {
+	color: #555555;
+}
+
+
+header {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+img { 
+   border:5px solid #9ca8a3;
+}
+
+
+#logo {
+	border-top: 1px solid #9ca8a3;
+	padding: 5px 0px 0px 0px;
+	margin: auto;
+	width: 100%;
+}
+
 
 .wrapper {
 	width: 960px;
@@ -17,4 +60,55 @@ body {
 	padding: 0 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+
+.col-1 {
+	float: left;
+ 	width: 25%;
+}
+
+
+.col-1 img {
+ 	padding: 1px;
+}
+
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	line-height: 0;
+	clear:both;
+}
+
+#copyright h4 {
+	font-size: .75em;
+	float: right;
+	color: #9ca8a3;
+	
+}
+
+*{
+	box-sizing:border box;
+
+}
+
+
+/* Pseudo Selectors */
+.col-1 img:hover {
+	border:5px solid #6f7f7a;
+}
+
+
+header a:link, a:hover, a:visited {
+  color: #9ca8a3;
+  text-decoration: none;
+}
+
+
+header a:hover {
+  color: #6f7f7a;
+  text-decoration: none;
+}
+
